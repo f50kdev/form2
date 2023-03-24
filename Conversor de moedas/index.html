@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+    />
+    <title>Conversor de Moeda</title>
+</head>
+<body>
+    
+    <main>
+        <section class="conversor">
+            <h1>Conversor</h1>
+            <div class="wraper">
+                <div class="money-wraper">
+
+                   <input type="text" class="amount" value="100$">
+                   <div class="dropdown">
+                   <div class="selected">
+                    <span class="fi fi-us fis"></span>
+                    USD</div>
+                   <ul>
+                    <li>
+                        <span class="fi fi-ao fis"></span>
+                        AO</li>
+                    <li>
+                        <span class="fi fi-br fis"></span>
+                        BR</li>
+
+                    <li>
+                        <span class="fi fi-cn fis"></span>
+                        EUR</li>
+                    <li>
+                        <span class="fi fi-pt fis"></span>
+                        GBP</li>
+                   </ul>
+                   </div>
+
+                </div>
+                <div class="midle"></div>
+                <div class="money-wraper"></div>
+
+            </div>
+        </section>
+        <section class="cambio">
+            <h1>taxa de cambio</h1>
+            <div class="wraper"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

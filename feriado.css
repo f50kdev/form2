@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: grid;
+    place-content: center;
+    background-color: blueviolet;
+    font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+main{
+    display: grid;
+    place-content: center;
+    width:auto;
+    height: 100vh;
+  
+}
+.caixa{
+    border-radius: 10px;
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    border-bottom: solid 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    padding: 20px;
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    border: 0px;
+}
+
+  
+
+input{
+  background-color: rgb(39, 37, 37);
+  color: white;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 3px;
+}
+form{
+    display: flex;
+    gap: 10px;
+}
+.texto{
+    background-color: aliceblue;
+    height: 80px;
+    margin-top: 20px;
+    color: rgb(34, 30, 30);
+    border: 0px;
+    box-shadow: 1px 3px 4px darkgray;
+    outline: none;
+    display: grid;
+    place-content: center;
+}
+
+.rad{
+    display: flex;
+    flex-direction: column;
+}

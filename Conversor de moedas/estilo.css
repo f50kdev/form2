@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    
+}
+
+:root{
+    font-family: 'Poppins', sans-serif;
+   
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    }
+
+main{
+ 
+    width: 800px;
+    height: 692px;
+    padding: 64px  80px;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.329);
+    border-radius: 16px;
+    display: grid;
+    gap: 64px;
+}
+
+
+.cambio .wraper{
+    width: 592px;
+    height: 356px;
+    border: 1px solid black;margin-top: 16px;
+
+
+}
+
+.money-wraper{
+    background-color: white;
+    outline: 1px solid blue;
+    width: 202px;
+   
+    padding: 16px;
+    border-radius: 8px;
+}
+
+
+.amount{
+    border: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    color: blueviolet;
+    width: 50%;
+    outline: 0px;
+}
+
+
+.conversor .wraper{
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+section h2{
+    font-size: 20px;
+    line-height:24px ;
+
+
+}
+
+.money-wraper:hover,.money-wraper:has(:focus){
+    outline: 2px solid blue;
+}

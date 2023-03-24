@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="assets/twitter.svg" type="image/x-icon">
+     <link rel="stylesheet" href="form2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+       <main>
+        <div class="form2">
+            <form action="post">
+                <fieldset>
+                    <legend>Inscreva-se</legend>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="name" id="nome" placeholder="insira o seu nome" required autocomplete="on">
+                      <label for="email">Email </label>
+                      <input type="email" placeholder="ex:eadpea2020@gmail.com" pattern=".+@gmail.com" id="email">
+                    
+                     <label for="pass">Senha</label>
+                     <input type="password" name="" id="pass" maxlength="10px" minlength="4" accesskey="on" autocomplete="on" required title="campo obrigatoriio">
+
+                     <label for="pass">Confirmar a Senha</label>
+                     <input type="password" name="" id="pass" maxlength="10px" minlength="4" accesskey="on" autocomplete="">
+                     <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+
+        </div>
+       </main>
+       <script src="texte.js"></script>
+    
+</body>
+</html>
